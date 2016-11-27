@@ -1,0 +1,41 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="AppTheme.Base">
+
+    </style>
+
+    <style name="AppTheme.Base" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="android:windowBackground">@color/colorBackground</item>
+        
+        <item name="android:typeface">serif</item>
+
+    </style>
+    
+    <style name="AppThemeSecondary" parent="Theme.AppCompat.Light">
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+
+        <item name="android:windowBackground">@color/colorBackground</item>
+
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+
+    <style name="MyFabThemeYellow" parent="AppTheme.Base">
+
+        <item name="colorAccent">@color/colorPrimary</item>
+
+    </style>
+
+</resources>

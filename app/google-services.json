@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "20253109480",
+    "firebase_url": "https://greencode-csm.firebaseio.com",
+    "project_id": "greencode-csm",
+    "storage_bucket": "greencode-csm.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:20253109480:android:d23b981c6c343d9c",
+        "android_client_info": {
+          "package_name": "com.chickdev.viche.csm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "20253109480-ouvke93vcffcelpr70b5egnd5dgft22i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.chickdev.viche.csm",
+            "certificate_hash": "27C96CF8390299E68DEF8B5F4F00B9BE6EB035FF"
+          }
+        },
+        {
+          "client_id": "20253109480-1qsdi58c8kf69cq53qiebstpo8r9upc0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDM7lo02okbyMp_e45OkbMYDk-YU_eJEPE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "20253109480-1qsdi58c8kf69cq53qiebstpo8r9upc0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

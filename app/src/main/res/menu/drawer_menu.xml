@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/navigation_item_ala_une"
+
+            android:checked="true"
+
+            android:icon="@drawable/ic_verified_user_grey_600"
+
+            android:title="Profil" />
+
+        <item android:id="@+id/navigation_item_images"
+
+            android:icon="@drawable/ic_favorite_grey_600"
+
+            android:title="Localisation" />
+    </group>
+
+    <item android:title="Categories">
+
+        <menu>
+
+            <item
+                android:id="@+id/sport"
+
+                android:icon="@drawable/ic_label_grey_600"
+
+                android:title="Sport" />
+
+            <item
+                android:id="@+id/international"
+
+                android:icon="@drawable/ic_label_grey_600"
+
+                android:title="Voyage" />
+
+            <item
+                android:id="@+id/divers"
+
+                android:icon="@drawable/ic_label_grey_600"
+
+                android:title="Divers" />
+
+            <item
+                android:id="@+id/video"
+
+                android:icon="@drawable/ic_label_grey_600"
+
+                android:title="Videos" />
+
+            <item
+                android:id="@+id/opinion"
+
+                android:icon="@drawable/ic_label_grey_600"
+
+                android:title="Opinions" />
+        </menu>
+
+    </item>
+
+    <item android:title="">
+        <menu>
+
+            <item
+                android:id="@+id/contact"
+
+                android:title="Contacts"
+
+                android:icon="@drawable/ic_contacts_grey_600" />
+
+            <item
+                android:id="@+id/parametre"
+
+                android:title="Settings"
+
+                android:icon="@drawable/ic_settings_grey_600" />
+        </menu>
+    </item>
+
+</menu>

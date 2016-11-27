@@ -1,0 +1,355 @@
+<resources>
+    <string name="app_name">CSM</string>
+
+    <string name="logo_acceuil">logo acceuil</string>
+
+    <string name="geny_cm">Geny CM</string>
+
+    <string name="une_meilleur_fa_on_de_payer_mais_pas_seulement">Une meilleur façon de payer, mais pas seulement…</string>
+
+    <string name="d_marrer">Démarrer</string>
+
+    <string name="messaget_avertissement">
+        Un seul message vous sera envoyé pour la confirmation de votre numero de telephone.
+
+        Des frais de sms peuvent s\'appliquer selon l\'opérateur.
+    </string>
+
+    <string name="choisir_pays">Choisissez votre pays</string>
+
+    <string name="numero_phone">Téléphone</string>
+
+    <string name="message_indication">Veuillez remplire les informations suivantes</string>
+
+    <string name="pays">Pays</string>
+
+    <string name="Telephone">Téléphone</string>
+
+    <string name="numero_confirm">Le numéro entré correspond à une puce sur le téléphone</string>
+
+    <string name="suivant">Suivant</string>
+
+    <string name="verification_numero">Vérification du numéro</string>
+
+    <string name="verifier_numero">Ce numéro est-il le votre ?</string>
+
+    <string name="message_code_acces">Le code d\'acces GENY CM sera envoyé à ce numéro</string>
+
+    <string name="indice">Indice</string>
+
+    <string name="a_propos">A propos</string>
+
+    <string name="nous_vous_avons_envoy_un_sms_d_activation_au_237_697435001">Nous vous avons envoyé un SMS d\'activation au </string>
+
+    <string name="veuillez_patientez_ceci_peut_durer_quelque_minute">Veuillez patientez! Ceci peut prendre quelques minutes...</string>
+
+    <string name="pour_un_besoin_de_securite_vous_devez_enregstrer_vos_informations_personnelles">Pour de besoin de securite vous devez enregstrer vos informations personnelles</string>
+
+    <string name="nom">Nom*</string>
+
+    <string name="prenom">Prenom</string>
+
+    <string name="email">Email*</string>
+
+    <string name="password">Password*</string>
+
+    <string name="confirmez_mot_de_passe">Confirmez Mot de Passe*</string>
+
+    <string name="mot_de_passe">Mot de Passe</string>
+
+    <string name="v_rifier_vos_information_et_terminer_votre_inscription">Vérifier vos information et terminer votre inscription</string>
+
+    <string name="first_lastname">First - LastName</string>
+
+    <string name="acceptez_nos_conditions_d_utilisation">Acceptez nos conditions d\'utilisation</string>
+
+    <string name="sexe">Sexe</string>
+
+    <string name="vichelive89_gmail_com">vichelive89@gmail.com</string>
+
+    <string name="_237_697_918_649">+237 697-918-649</string>
+
+    <string name="cameroun">Cameroun</string>
+
+    <string name="changer_de_numero"><u>Changer de numero</u></string>
+
+    <string name="appelez_moi">Appelez-moi</string>
+
+    <string name="en_savoir_plus"><u>En savoir plus</u>...</string>
+
+    <string name="list">List</string>
+
+    <string name="annuler">Annuler</string>
+
+    <string name="guiyeke_viche">Guiyeke Viche</string>
+
+    <string name="bienvenu">Bienvenu</string>
+
+    <string name="derni_re_transaction_12_07_2016_12_45">Dernière transaction : 12/07/2016 à 12:45.</string>
+
+    <string name="janvier_2016">JANVIER 2016</string>
+
+    <string name="payement">Payement</string>
+
+    <string name="transfert">Transfert</string>
+
+    <string name="_27_payements_effectu_s">27 payements</string>
+
+    <string name="menu">menu</string>
+
+    <string name="_27_transferts_effectu_s">27 Transferts</string>
+
+    <string name="contacts">Contacts</string>
+
+    <string name="_278_contacts_enregistr_s">278 Contacts</string>
+
+    <string name="param_tres">Paramètres</string>
+
+    <string name="personnalisez_votre_compte">Configurez compte</string>
+
+    <string name="locations">locations</string>
+
+    <string name="shared">shared</string>
+
+    <string name="background_image">Background Image</string>
+
+    <string name="_11_points_de_vente_pr_s_de_chew_vous">11 points de vente près de chez vous</string>
+
+    <string name="_6_k_d_utilisateur_dans_votre_pays">6 K+ d\'utilisateur dans votre pays</string>
+
+    <string name="ajouter_un_compte">Ajouter un compte</string>
+
+    <string name="je_suis_le_propri_taire_l_gale_de_ce_compte">Je suis le propriétaire légale de ce compte</string>
+
+    <string name="ann_e">Année</string>
+
+    <string name="code">Code</string>
+
+    <string name="confirmer_code">Confirmer code</string>
+
+    <string name="moi">Mois</string>
+
+    <string name="numero_de_compte">Numero de compte</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="nav_item_attachment">Attachment</string>
+
+    <string name="nav_item_images">Images</string>
+
+    <string name="nav_item_location">My Location</string>
+
+    <string name="nav_sub_menu">Sub Menu</string>
+
+    <string name="nav_sub_menu_item01">Sub Menu Item 1</string>
+
+    <string name="nav_sub_menu_item02">Sub Menu Item 2</string>
+
+    <string name="drawer_header_text">Drawer Header</string>
+
+    <string name="second_activity_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consectetur diam id aliquam scelerisque. Donec ultrices lacus vel dignissim pharetra. Vivamus pharetra augue quis rhoncus placerat. Sed ultricies at risus non cursus. Nam rutrum leo nec placerat consectetur. Vestibulum feugiat eleifend diam, nec interdum augue tincidunt sit amet. Praesent feugiat est auctor lacus consectetur, vitae pellentesque dolor laoreet.</string>
+
+    <string name="title_activity_second">SecondActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="_6_120_45_xaf">6.120,45 XAF</string>
+
+    <string name="expire_le_12_2016">Expire le 12/2016</string>
+
+    <string name="aucun_transfert_effectu">Aucun transfert effectué,</string>
+
+    <string name="vous_pouvez_initialiser_un_nouveau_transfert">vous pouvez initialiser un nouveau transfert</string>
+
+    <string name="vous_n_avez_re_u_aucun_trqnsfert_ce_jour">Vous n\'avez reçu aucun transfert à ce jour &#8230;</string>
+
+    <string name="nouveau_transfert">Nouveau transfert</string>
+
+    <string name="contact_geny">Contact geny</string>
+
+    <string name="autre">Autre</string>
+
+    <string name="si_votre_destinataire_ne_poss_de_pas_de_compte_de_paiement_veillez_s_lectionner_autre">Si votre destinataire ne possède pas de compte de paiement veillez sélectionner - Autre -</string>
+
+    <string name="indique_les_champs_obligatoires">* Indique les champs obligatoires</string>
+
+    <string name="point_de_paiement">Point de paiement*</string>
+
+    <string name="telephone">Telephone*</string>
+
+    <string name="nom_complet">Nom complet*</string>
+
+    <string name="image_account">Image account</string>
+
+    <string name="un_contact_geny_est_potentiellement_toute_personne_poss_dant_au_moins_un_compte_de_paiement_l_gal">Un contact geny est potentiellement toute personne possédant au moins un compte de paiement légal.</string>
+
+    <string name="image_telephone_description">Image telephone description</string>
+
+    <string name="image_desciption_email_adresse">Image desciption email adresse</string>
+
+    <string name="image_description_point_de_vente">Image description point de vente</string>
+
+    <string name="search">Search</string>
+
+    <string name="montant">Montant</string>
+
+    <string name="euro">Euro</string>
+
+    <string name="_100_000"><![CDATA[< 100 000]]></string>
+
+    <string name="description">Description</string>
+
+    <string name="_0_124">0/124</string>
+
+    <string name="envoyer_maintenant">Envoyer maintenant</string>
+
+    <string name="compte_de_paiement">Compte de paiement*</string>
+
+    <string name="choisir_une_date">Choisir une date</string>
+
+    <string name="compte_expediteur">Compte expediteur</string>
+
+    <string name="details_du_transfert">Details du transfert</string>
+
+    <string name="frais_d_envoie_4">Frais d\'envoie (4%) : </string>
+
+    <string name="_450_fcfa"> 450 Fcfa</string>
+
+    <string name="mainenant">Mainenant</string>
+
+    <string name="_237">+237</string>
+
+    <string name="m">M</string>
+
+    <string name="f">F</string>
+
+    <string name="nouveau">Nouveau</string>
+
+    <string name="consulter_le_contact">Consulter le contact</string>
+
+    <string name="envoyer_un_transfert">Envoyer un transfert</string>
+
+    <string name="initialiser_un_payement">Initialiser un payement</string>
+
+    <string name="selectionner_un_compte">Selectionner un compte</string>
+
+    <string name="supprimer">Supprimer</string>
+
+    <string name="renvoyer_le_code"><u>Renvoyer le code?</u></string>
+
+    <string name="mlle">Mlle</string>
+
+    <string name="profession">Profession</string>
+
+    <string name="trop_court">Trop court</string>
+
+    <string name="court">Court</string>
+
+    <string name="moyen">Moyen</string>
+
+    <string name="bon">Bon</string>
+
+    <string name="tres_bon">Tres bon</string>
+
+    <string name="entrer_le_montant">Entrer le montant</string>
+
+    <string name="montant_recap_paie">Montant :</string>
+
+    <string name="compte">Compte</string>
+
+    <string name="chickdev_sarl_orange_cmpt">ChickDev Sarl ORANGE</string>
+
+    <string name="numero_de_compte_paiement">NUM compte</string>
+
+    <string name="two_dots">:</string>
+
+    <string name="salaire">Salaire</string>
+
+
+    <string-array name="prestatairesStringArray">
+
+        <item>Orange Money CM</item>
+
+        <item>MTN Mobile Money</item>
+
+        <item>UBA Cameroun</item>
+
+        <item>Express Uniom</item>
+
+        <item>Express Exchange</item>
+
+        <item>Western Union</item>
+
+    </string-array>
+
+    <string name="title_activity_points_de_payment">Map</string>
+
+    <string name="action_sign_in_short">Register</string>
+
+    <string name="minimum_password">Password too short, enter minimum 6 characters!</string>
+
+    <string name="auth_failed">Authentication failed, check your email and password or sign up</string>
+
+    <string name="change_email">Change Email</string>
+
+    <string name="change_password">Change Password</string>
+
+    <string name="send_password_reset_email">Send Password reset email</string>
+
+    <string name="remove_user">Remove user</string>
+
+    <string name="new_pass">New Password</string>
+
+    <string name="title_activity_profile">Firebase</string>
+
+    <string name="title_activity_login">Sign in</string>
+
+    <string name="hint_email">Email</string>
+
+    <string name="hint_password">Password</string>
+
+    <string name="hint_name">Fullname</string>
+
+    <string name="btn_login">LOGIN</string>
+
+    <string name="btn_link_to_register">Not a member? Get registered in Firebase now!</string>
+
+    <string name="btn_link_to_login">Already registered. Login Me!</string>
+
+    <string name="title_activity_reset_password">ResetPasswordActivity</string>
+
+    <string name="btn_forgot_password">Forgot your password?</string>
+
+    <string name="btn_reset_password">Reset Password</string>
+
+    <string name="btn_back"><![CDATA[<< Back]]></string>
+
+    <string name="hint_new_email">New Email</string>
+
+    <string name="btn_change">Change</string>
+
+    <string name="btn_send">Send</string>
+
+    <string name="btn_remove">Remove</string>
+
+    <string name="btn_sign_out">Sign Out</string>
+
+    <string name="lbl_forgot_password">Forgot password?</string>
+
+    <string name="forgot_password_msg">We just need your registered Email Id to sent you password reset instructions.</string>
+
+    <string name="sign_in">Sign in</string>
+
+    <string name="sign_in_here">Sign in here</string>
+
+    <string name="cr_er_un_compte"><ul>Créer un compte</ul></string>
+
+    <string name="mot_de_passe_oubli"><ul>Mot de passe oublié?</ul></string>
+
+    <string name="email_simple">Email</string>
+
+    <string name="cliquer_sur_payer_puis_scanner_le_code_de_paiement_pour_effectuer_la_transaction">Cliquer sur <![CDATA[<< payer >>]]> puis scanner le code de paieament pour effectuer la transaction.</string>
+    <string name="veuillez_v_rifier_les_d_tails_de_votre_paiement_puis_continuez">Veuillez vérifier les détails de votre paiement puis continuez.</string>
+    <string name="scanner_le_qr_code">Scanner le QR Code</string>
+</resources>

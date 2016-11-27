@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.Toolbar
+
+    android:id="@+id/toolbar_bottom"
+
+    android:layout_width="match_parent"
+
+    android:layout_height="?attr/actionBarSize"
+
+    android:padding="0dp"
+
+    android:elevation="4dp"
+
+    android:fitsSystemWindows="true"
+
+    android:layout_marginTop="16dp"
+
+    android:background="@android:color/white"
+
+    android:minHeight="?attr/actionBarSize"
+
+    android:layout_alignParentBottom="true"
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:id="@+id/rl_main_toolbar"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent">
+
+
+        <Button
+            android:id="@+id/tv_preview"
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="match_parent"
+
+            android:textSize="16sp"
+
+            android:padding="16dp"
+
+            android:layout_marginLeft="-10dp"
+
+            android:enabled="false"
+
+            android:layout_alignParentLeft="true"
+
+            android:clickable="true"
+
+            android:text="RETOUR" />
+
+        <Button
+            android:id="@+id/tv_continue"
+
+            android:layout_gravity="end"
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="match_parent"
+
+            android:textColor="@color/colorAccent"
+
+            android:textSize="16sp"
+
+            android:padding="16dp"
+
+            android:layout_alignParentRight="true"
+
+            android:clickable="true"
+
+            android:text="CONTINUE" />
+
+    </RelativeLayout>
+
+
+
+</android.support.v7.widget.Toolbar>

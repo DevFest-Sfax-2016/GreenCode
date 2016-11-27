@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/action_consulter"
+
+        android:orderInCategory="100"
+
+        android:title="@string/consulter_le_contact" />
+
+    <item
+        android:id="@+id/action_new_transfert"
+
+        android:orderInCategory="100"
+
+        android:title="@string/envoyer_un_transfert" />
+
+    <item
+        android:id="@+id/action_payement"
+
+        android:orderInCategory="100"
+
+        android:title="@string/initialiser_un_payement" />
+
+    <item
+        android:id="@+id/action_supprimer"
+
+        android:orderInCategory="100"
+
+        android:title="@string/supprimer" />
+</menu>

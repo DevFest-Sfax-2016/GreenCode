@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:orientation="vertical"
+
+    android:layout_width="match_parent"
+
+    android:layout_height="260dp"
+
+    android:background="@color/colorPrimary"
+
+    android:theme="@style/ThemeOverlay.AppCompat.Dark"
+
+    android:gravity="bottom">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+
+        android:background="@drawable/background_drawer_header"
+
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+
+            android:layout_width="140dp"
+
+            android:layout_height="140dp"
+
+            android:background="@drawable/circle"
+
+            android:layout_centerHorizontal="true"
+
+            android:layout_centerVertical="true"
+
+            android:layout_marginBottom="72dp">
+
+            <ImageView
+
+                android:id="@+id/iv_logo_mini"
+
+                android:layout_width="80dp"
+
+                android:layout_height="80dp"
+
+                android:src="@drawable/csm"
+
+                android:layout_centerInParent="true" />
+        </RelativeLayout>
+
+        <!--TextView
+
+        android:id="@+id/user_name"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+
+        android:text="@null"
+
+        android:maxLines="1"
+
+        android:textColor="@android:color/white"
+
+        android:layout_marginLeft="16dp"
+
+        android:layout_above="@+id/user_phone_number"
+
+        android:textSize="21sp"
+
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"/-->
+
+    <!--TextView
+        android:id="@+id/user_phone_number"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+
+        android:text="@null"
+
+        android:maxLines="1"
+
+        android:textColor="@android:color/white"
+
+        android:layout_marginLeft="16dp"
+
+        android:layout_above="@+id/user_mail_adress"
+
+        android:textSize="18dp"
+
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"/-->
+
+
+    <TextView
+        android:id="@+id/user_mail_adress"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+
+        android:text="@null"
+
+        android:textColor="@android:color/white"
+
+        android:textSize="16dp"
+
+        android:maxLines="1"
+
+        android:layout_marginLeft="16dp"
+
+        android:layout_marginBottom="16dp"
+
+        android:layout_alignParentBottom="true"
+
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

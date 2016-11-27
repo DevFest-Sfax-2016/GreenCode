@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.design.widget.CoordinatorLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:id="@+id/container"
+
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent"
+
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+
+        tools:context="com.chickdev.geny.user.Authentification.vues.GetUserNameOrEmailAdress">
+
+        <TextView
+            android:id="@+id/tv_sing_in"
+
+            android:layout_above="@+id/tv_user_names_email_adress_or_phone"
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+            android:text="Sign in"
+
+            android:textColor="@color/textColorPrimaryBold"
+
+            android:textSize="32sp"
+
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+
+            android:id="@+id/tv_user_names_email_adress_or_phone"
+
+            android:layout_above="@+id/rl_get_user_account"
+
+            android:layout_marginBottom="10dp"
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+            android:text="Entrez votre adresse E-mail"
+
+            android:maxLines="1"
+
+            android:textColor="@color/textColorPrimary"
+
+            android:textSize="16sp"
+
+            android:layout_centerHorizontal="true"
+
+            android:gravity="center"
+
+            android:layout_marginTop="36dp"
+
+            android:layout_marginLeft="20dp"
+
+            android:layout_marginRight="20dp" />
+
+        <RelativeLayout
+            android:id="@+id/rl_get_user_account"
+
+            android:layout_centerInParent="true"
+
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/edt_email"
+
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+
+                android:textColorHint="@color/textColorPrimaryLight"
+
+                android:textColor="@color/textColorPrimary"
+
+                android:textSize="15sp"
+
+                android:maxLines="1"
+
+                android:maxLength="30"
+
+                android:hint="Identifiant"
+
+                android:gravity="center_horizontal|center_vertical"
+
+                android:layout_marginLeft="16dp"
+
+                android:layout_marginRight="16dp" />
+
+
+            <EditText
+                android:visibility="visible"
+
+                android:id="@+id/edt_pass"
+
+                android:layout_below="@+id/edt_email"
+
+                android:background="@android:color/transparent"
+
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+
+                android:paddingBottom="8dp"
+
+                android:textSize="15sp"
+
+                android:hint="mot de passe"
+
+                android:textColorHint="@color/textColorPrimaryLight"
+
+                android:textColor="@color/textColorPrimary"
+
+                android:maxLines="1"
+
+                android:maxLength="15"
+
+                android:gravity="center_horizontal|center_vertical"
+
+                android:layout_marginLeft="16dp"
+
+                android:layout_marginRight="16dp" />
+
+        </RelativeLayout>
+
+        <android.support.design.widget.FloatingActionButton
+
+            android:id="@+id/sign_in_button"
+
+            android:layout_below="@+id/rl_get_user_account"
+
+            android:layout_centerHorizontal="true"
+
+            android:layout_marginTop="24dp"
+
+            android:src="@drawable/quantum_ic_play_arrow_white_24"
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content" />
+
+        <android.support.design.widget.FloatingActionButton
+
+            android:visibility="gone"
+
+            android:id="@+id/fab_sign_in2"
+
+            android:layout_below="@+id/rl_get_user_account"
+
+            android:layout_centerHorizontal="true"
+
+            android:layout_marginTop="24dp"
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+            app:fabSize="mini" />
+
+
+        <android.support.v7.widget.Toolbar
+
+            android:id="@+id/toolbar_bottom_sign_in"
+
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+
+            android:background="@color/colorBackground"
+
+            android:layout_alignParentBottom="true" >
+
+            <FrameLayout
+                android:id="@+id/fl_create_account"
+
+                android:visibility="visible"
+
+                android:layout_width="match_parent"
+
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/tv_create_account"
+
+                    android:layout_width="wrap_content"
+
+                    android:layout_height="wrap_content"
+
+                    android:text="Créer un compte"
+
+                    android:textStyle="bold"
+
+                    android:layout_gravity="center_horizontal"
+
+                    android:textSize="14sp" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/fl_pb_sign_in"
+
+                android:visibility="gone"
+
+                android:layout_width="match_parent"
+
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/tv_problem_sign_in"
+
+                    android:layout_width="wrap_content"
+
+                    android:layout_height="wrap_content"
+
+                    android:text="Mot de passe oublié?"
+
+                    android:layout_gravity="center_horizontal"
+
+                    android:textSize="14sp"
+
+                    android:textColor="@color/colorAccent" />
+
+            </FrameLayout>
+        </android.support.v7.widget.Toolbar>
+
+        <RelativeLayout
+
+            android:id="@+id/rl_iv_sign_in"
+
+            android:background="@drawable/circle_for_logo"
+
+            android:layout_width="100dp"
+
+            android:layout_height="100dp"
+
+            android:layout_marginBottom="24dp"
+
+            android:layout_above="@+id/tv_sing_in"
+
+            android:layout_alignLeft="@+id/tv_sing_in"
+
+            android:layout_alignStart="@+id/tv_sing_in">
+
+            <ImageView
+
+                android:id="@+id/iv_sign_in"
+
+                android:layout_width="120dp"
+
+                android:layout_height="wrap_content"
+
+                android:layout_centerHorizontal="true"
+
+                android:layout_centerVertical="true" />
+
+        </RelativeLayout>
+    </RelativeLayout>
+</android.support.design.widget.CoordinatorLayout>
